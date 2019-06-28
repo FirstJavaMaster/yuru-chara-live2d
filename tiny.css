@@ -58,7 +58,7 @@
     padding: 5px 10px;
     border-radius: 12px;
     box-sizing: border-box;
-    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .12), 0px 2px 2px 0px rgba(0, 0, 0, .24);
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .12), 0 2px 2px 0 rgba(0, 0, 0, .24);
     transition: box-shadow .2s ease;
     background: #fff;
     color: #212121;
@@ -84,7 +84,6 @@
     border-radius: 5px;
     font-size: 13px;
     cursor: pointer;
-    font-family: 'Ubuntu'
 }
 
 @media (min-width: 861px) {
@@ -94,16 +93,12 @@
         left: -17px;
         color: #fff;
         font-size: 13px;
-        padding: 5px 0;
-        padding-top: 5px;
-        padding-right: 0;
-        padding-bottom: 5px;
-        padding-left: 17px;
+        padding: 5px 0 5px 17px;
         font-weight: 700;
         z-index: 99;
         visibility: visible;
         writing-mode: vertical-rl;
-        transiton-property: left, bottom;
+        transition-property: left, bottom;
         transition-duration: .5s, .5s
     }
 
@@ -133,19 +128,15 @@
     @media (min-width: 861px) {
         .isWebKit .live2d-tool {
             border-radius: 0 5px 5px 0;
-            width: 35px;
+            width: 20px;
             margin-left: -35px;
             color: #fff;
             font-size: 13px;
-            padding: 5px 0;
-            padding-top: 5px;
-            padding-right: 0;
-            padding-bottom: 5px;
-            padding-left: 17px;
+            padding: 5px 0 5px 17px;
             font-weight: 700;
             z-index: 99;
             writing-mode: vertical-rl;
-            transiton-property: margin-left, bottom;
+            transition-property: margin-left, bottom;
             transition-duration: .5s, .5s
         }
 
@@ -159,7 +150,7 @@
     .live2d-tool {
         margin-left: 0;
         left: -17px;
-        transiton-property: left, bottom
+        transition-property: left, bottom
     }
 
     .live2d-tool:hover {
@@ -188,7 +179,7 @@
         background-color: orange;
         bottom: 156px;
         visibility: visible;
-        min-height: 38.75px
+        min-height: 40px
     }
 
     .switch-live2d {
@@ -202,7 +193,7 @@
         background-color: #eed099;
         bottom: 66px;
         visibility: visible;
-        min-height: 39.3px
+        min-height: 40px
     }
 }
 
