@@ -158,7 +158,7 @@
 }
 
 .wp-block-calendar table th {
-    font-weight: 440;
+    font-weight: 400;
     background: #edeff0
 }
 
@@ -1325,8 +1325,9 @@ html {
 
 body {
     margin: 0;
-    font: 300 17px;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, .1)
+    font-weight: 300;
+    font-size: 17px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .1)
 }
 
 input:-webkit-autofill {
@@ -3957,14 +3958,6 @@ h3#comments-list-title {
     margin-right: auto
 }
 
-.entry-content a img.alignleft, .entry-content a img.alignright, .entry-content a img.aligncenter {
-    cursor: -webkit-zoom-in
-}
-
-#baguetteBox-overlay .full-image {
-    cursor: -webkit-zoom-out
-}
-
 #baguetteBox-overlay .full-image img, #baguetteBox-overlay .full-image figcaption {
     cursor: auto
 }
@@ -4173,7 +4166,6 @@ span.time {
 .ar-time {
     position: absolute;
     left: -18px;
-    top: px;
     margin-top: 3px
 }
 
@@ -5631,7 +5623,6 @@ i.iconfont.js-toggle-search.iconsearch {
 
 .s-search input {
     font-size: 1rem;
-    background: #none;
     padding: 12px 24px 12px 64px;
     width: 100%;
     outline: none;
@@ -7192,37 +7183,6 @@ i.iconfont.down {
     animation: loading .6s .1s linear infinite
 }
 
-@keyframes loading {
-
-0
-{
-    transform: translate(0, 0)
-;
-    background-color: #ababab
-}
-25
-%
-{
-    transform: translate(0, -3px)
-}
-50
-%
-{
-    transform: translate(0, 0)
-;
-    background-color: #ababab
-}
-75
-%
-{
-    transform: translate(0, 3px)
-}
-100
-%
-{
-    transform: translate(0, 0)
-}
-}
 a.botui-message-content-link:focus {
     outline: thin dotted
 }
@@ -7989,21 +7949,6 @@ button.botui-actions-buttons-button {
     }
 }
 
-position:relative
-
-;
-z-index:
-
-99
-;
-cursor:pointer
-
-;
-}
-.changeSkin-gear span:before {
-    content: "切换主题 | Change Skin "
-}
-
 @media (max-width: 800px) {
     .changeSkin-gear span:before {
         content: ""
@@ -8230,18 +8175,6 @@ cursor:pointer
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover
-}
-
-.finish-icon-container {
-    font-size: 1rem;
-    display: -webkit-box;
-    display: box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-align: center;
-    box-align: center;
-    -webkit-align-items: center;
-    align-items: center
 }
 
 .finish-icon-text {
@@ -8527,22 +8460,6 @@ a.toc-link {
 
 .is-active-link:before {
     background-color: orange !important
-}
-
-.flipx {
-    -moz-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH
-}
-
-.flipy {
-    -moz-transform: scaleY(-1);
-    -webkit-transform: scaleY(-1);
-    -o-transform: scaleY(-1);
-    transform: scaleY(-1);
-    filter: FlipV
 }
 
 .flipx-v2 {
@@ -9206,8 +9123,8 @@ a.toc-link {
 }
 
 .highlight-wrap code::-webkit-scrollbar {
-    height: 10x !important;
-    width: 10x !important;
+    height: 10px !important;
+    width: 10px !important;
     background-color: #1d1f21 !important
 }
 
